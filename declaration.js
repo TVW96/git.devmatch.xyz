@@ -1,6 +1,6 @@
-// This variable is changed immediately after declaration so I use var. 
-let fullName = "John Doe";
 // If const this variable would not be allowed to change value from "John Doe" to "Jane Doe".
+// This variable is changed immediately after declaration so I use the let declaration.. 
+let fullName = "John Doe";
 fullName = "Jane Doe";
 console.log(fullName);
 
